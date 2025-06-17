@@ -1043,22 +1043,16 @@ section,
   align-items: center;
   justify-content: center;
   transition: ease-in-out 0.3s;
-  position: relative;
+  position: center;
 }
 
-.services .service-item .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .service-item .icon svg {
-  position: absolute;
+.services .service-item .icon src {
+  position: center;
   top: 0;
   left: 0;
 }
 
-.services .service-item .icon svg path {
+.services .service-item .icon src path {
   transition: 0.5s;
   fill: color-mix(in srgb, var(--default-color), transparent 95%);
 }
