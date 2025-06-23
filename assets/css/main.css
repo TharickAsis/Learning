@@ -828,6 +828,44 @@ section,
   background-color: var(--accent-color);
 }
 
+
+/*--------------------------------------------------------------
+# learning Section
+--------------------------------------------------------------*/
+.learning .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.learning .progress .learning {
+  color: var(--heading-color);
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: var(--heading-font);
+}
+
+.learning .progress .learning .val {
+  float: right;
+  font-style: normal;
+}
+
+.learning .progress-bar-wrap {
+  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  height: 10px;
+}
+
+.learning .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: var(--accent-color);
+}
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
